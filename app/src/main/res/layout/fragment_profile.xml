@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/malenia"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#4D6A341C"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/dorado"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elden ring es un juego desarrollado por Fromsoftware y distribuido por Bandai Namco. Es un RPG de mundo abierto dirigido por Hidetaka Miyazaki, famoso por crear la saga Dark Souls. Cabe destacar que participó George R.R Martín, creador de los libros de juego de tronos, para la creación del juego."
+            android:textSize="20dp"
+            android:background="#8F161833"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

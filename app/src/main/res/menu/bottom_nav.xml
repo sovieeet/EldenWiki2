@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+
+    <item
+        android:icon="@drawable/ic_baseline_list_24"
+        android:id="@+id/home" android:title="Secciones"
+        android:iconTint="@color/dorado"/>
+    <item
+        android:icon="@drawable/ic_baseline_app_shortcut_24"
+        android:id="@+id/profile"
+        android:title="App"
+        android:iconTint="@color/dorado"/>
+    <item
+        android:icon="@drawable/ic_baseline_info_24"
+        android:id="@+id/settings"
+        android:title="Acerca de"
+        android:iconTint="@color/dorado"/>
+    <item
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/api"
+        android:title="Api"
+        android:iconTint="@color/dorado"/>
+</menu>

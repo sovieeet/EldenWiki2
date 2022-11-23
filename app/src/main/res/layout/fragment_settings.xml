@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/setting"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#511A2251"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/elden_ring_word" />
+
+        <TextView
+            android:textColor="@color/dorado"
+            android:paddingBottom="0dp"
+            android:id="@+id/textview_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplicación realizada por Manuel Barrera para Desarrollo aplicaciones Android"
+            android:background="#8F161833"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:textColor="@color/dorado"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elden ring es una marca registrada de Bandai Namco. Todos los derechos reservados. 2022"
+            android:textSize="15dp"
+            android:layout_marginTop="250dp"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

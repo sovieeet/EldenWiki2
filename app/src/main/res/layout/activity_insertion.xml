@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertionActivity">
+    <!--- android:padding="16dp" -->
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/agmujer"
+         android:orientation="vertical"
+         android:scaleType="centerCrop"/>
+
+ <LinearLayout
+     android:gravity="center"
+     android:orientation="vertical"
+     android:background="#801C1708"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+     <EditText
+         android:id="@+id/etWomName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="50dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:hint="Ingresa nombre"
+         android:textColor="@color/dorado"
+         android:textColorHint="@color/dorado"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <EditText
+         android:id="@+id/etWomDesc"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:hint="Ingresa descripción"
+         android:textColor="@color/dorado"
+         android:textColorHint="@color/dorado"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/etWomName" />
+
+     <EditText
+         android:id="@+id/etWomPlace"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:hint="Ingresa lugar de ubicación"
+         android:textColor="@color/dorado"
+         android:textColorHint="@color/dorado"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/etWomDesc" />
+
+     <Button
+         android:id="@+id/btnSave"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="32dp"
+         android:backgroundTint="@color/dorado"
+         android:text="Guardar Mujer"
+         android:textColor="@color/azul2"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/etWomPlace" />
+
+ </LinearLayout>
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>

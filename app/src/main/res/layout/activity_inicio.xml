@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InicioActivity">
+
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#801C1708">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-180dp"
+            android:layout_marginRight="10dp"
+            android:alpha="0.75"
+            android:src="@drawable/maleniachoper" />
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/elden_ring_word" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:textStyle="bold"
+            android:textColor="@color/azul2"
+            android:id="@+id/gSignInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Iniciar sesión con Google"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:backgroundTint="@color/white"
+            app:icon="@drawable/googlelogo"
+            app:iconPadding="4dp"
+            app:iconSize="20dp"
+            app:iconTint="@color/dorado"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:textColor="@color/dorado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login con email"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintEnd_toEndOf="parent"
+            ads:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

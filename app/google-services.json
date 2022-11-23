@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "286199496900",
+    "project_id": "elden-wiki-2",
+    "storage_bucket": "elden-wiki-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286199496900:android:ec55d78b5f8594c6728991",
+        "android_client_info": {
+          "package_name": "com.elden.eldenwiki2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286199496900-eohna0rt6n922l7kep06pag27ld1q0vp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elden.eldenwiki2",
+            "certificate_hash": "83b6e463476459f19252126133e1e6af10632ffd"
+          }
+        },
+        {
+          "client_id": "286199496900-grqa84k260o4dokcatih1ubmmbjhnhcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs79i-Ast_BnqkKMqZ6fe9Kzg5d5bNskI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286199496900-grqa84k260o4dokcatih1ubmmbjhnhcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
